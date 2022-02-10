@@ -1,6 +1,15 @@
 # Island-Utilities-DOCS-
 https://discord.gg/6ASdpBjbDX / Basic#2142
 
+# How to use:
+```
+1. Download the bot from the latest pin in #iu-client
+2. Extract the zip
+3. Place ATB inside the "TradeBot" folder
+4. Open the config outside of the "TradeBot" folder and edit it to your liking
+5. Run the index-win.exe file (either in command prompt or by just double clicking it)
+```
+
 # How to get tokens:
 ```
 > "roli_token"
@@ -27,14 +36,20 @@ Your Roblox cookie
 > "discord_id"
 Your discord id (I can't help you if you don't know what this is...)
 
-> "uid"
-Your Roblox user ID "https://www.roblox.com/users/643454786/profile"
-
 > "WL_key"
 Your WL_key (given to you when you purchase the bot)
 
 > "display_on"
 When set to true the bot will display your Roblox account as online 
+
+> "prefix"
+The prefix to IU commands (EX: "!"help)
+
+> "discord_id"
+Your discord id as a number (prevents other people from using specifc commands)
+
+> "embed_color"
+The color of the embedded notifications in HEX CODE (https://www.htmlcsscolor.com/hex/00B3FF)
 
 > "notify_completeds"
 When set to true the bot will post completeds in the set discord channel
@@ -49,9 +64,6 @@ The Discord channel ID in which the bot will post certain notifications (depends
 The tag or format the bot will use to mention people/a person
 Specific user format - <@DISCORDID>
 Specific role format - <@&ROLEID>
-
-> "embed_color"
-The color of the embedded notifications in HEX CODE (https://www.htmlcsscolor.com/hex/00B3FF)
 
 > "check_outbounds"
 When set to true the bot will check outbounds for losses
@@ -68,7 +80,10 @@ EX -> Original offer: 15k for 15.5k | Offer after 2hrs: 15k for 15.2k
 If the bot was set to decline at 200 profit deviance this trade would be declined
 
 > "min_under"
-The minimum amount an item has to be under rap for the bot to revalue the item
+The minimum amount an item has to be under rap for the bot to revalue the item (in outbounds)
+
+> "post_ads"
+When enabled the bot will attempt to post tradeads to Rolimons.com
 
 > "rwait_min" 
 The minimum amount of time the bot will wait to attempt to create another add (recommended to stay at above 18minutes/1080000 milliseconds)
@@ -96,6 +111,9 @@ When set to true the bot will automatically configure the bot when a new complet
 
 > "proxies"
 The proxies the bot will use (rotating ip proxies are preferred)
+
+> "static_offer_values"
+The prefered values of items that will be used in the outbound checker and auto-config (if enabled)
 
 > "send"
 The types of trades you'd like the configured bot to send

@@ -5,7 +5,7 @@ https://discord.gg/6ASdpBjbDX / Basic#2142
 ```
 1. Download the bot from the latest pin in #downloads
 2. Extract the zip
-3. Place ATB inside the "TradeBot" folder
+3. Place all of ATB's files inside the "TradeBot" folder
 4. Open the config outside of the "TradeBot" folder and edit it to your liking
 5. Run the index-win.exe file (either in command prompt or by just double clicking it)
 ```

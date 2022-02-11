@@ -3,7 +3,7 @@ https://discord.gg/6ASdpBjbDX / Basic#2142
 
 # How to use:
 ```
-1. Download the bot from the latest pin in #iu-client
+1. Download the bot from the latest pin in #downloads
 2. Extract the zip
 3. Place ATB inside the "TradeBot" folder
 4. Open the config outside of the "TradeBot" folder and edit it to your liking

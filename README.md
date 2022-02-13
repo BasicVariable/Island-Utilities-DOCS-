@@ -112,8 +112,8 @@ When set to true the bot will automatically configure the bot when a new complet
 > "proxies"
 The proxies the bot will use (rotating ip proxies are preferred)
 
-> "static_offer_values"
-The prefered values of items that will be used in the outbound checker and auto-config (if enabled)
+> "offer_values"
+Allows you to set what certain items specifically get (at the minimum), the format is "itemid":opitgets
 
 > "send"
 The types of trades you'd like the configured bot to send

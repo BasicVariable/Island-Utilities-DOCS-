@@ -86,10 +86,10 @@ The minimum amount an item has to be under rap for the bot to revalue the item (
 When enabled the bot will attempt to post tradeads to Rolimons.com
 
 > "rwait_min" 
-The minimum amount of time the bot will wait to attempt to create another add (recommended to stay at above 18minutes/1080000 milliseconds)
+The minimum amount of time, in seconds, the bot will wait to attempt to create another add
 
 > "rwait_max"
-The maximum amount of time the bot will wait to attempt to create another add (recommended to stay at above 22minutes/1320000 milliseconds)
+The maximum amount of time, in seconds, the bot will wait to attempt to create another add
 
 > "item_ids"
 The items you want to offer in the Ad (added with the perfered item's assetid)

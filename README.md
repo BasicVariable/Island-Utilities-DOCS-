@@ -121,6 +121,12 @@ The types of trades you'd like the configured bot to send
 > "dnt"
 A list of items you'd like the configured bot to not trade
 
+> "dntf"
+A list of items you'd like the configured bot to not trade for
+
+> "dnt_to"
+A list of people you'd like the configured bot avoid sending trades to
+
 > "plug"
 When set to true the configured bot will scrape rbx_flip
 

@@ -36,6 +36,9 @@ Your Roblox cookie
 > "discord_id"
 Your discord id (I can't help you if you don't know what this is...)
 
+> "bot_token"
+Your discord bot's secret token
+
 > "WL_key"
 Your WL_key (given to you when you purchase the bot)
 
@@ -65,19 +68,35 @@ The tag or format the bot will use to mention people/a person
 Specific user format - <@DISCORDID>
 Specific role format - <@&ROLEID>
 
+> "notifiy_inbounds"
+When set to true the bot will check for new inbounds and inbound wins
+
+> "rs_wins_int"
+The time in seconds the bot has to wait before restating cached "win" trade
+
+
+
 > "check_outbounds"
 When set to true the bot will check outbounds for losses
 
 > "cache_interval"
-The amount of time, in seconds, in which the bot will cache new outbound trades
+The amount of time, in seconds, in which the bot will cache new outbound/inbound trades
 
 > "check_interval"
-The amount of time, in seconds, in which the bot will check cached outbounds for losses
+The amount of time, in seconds, in which the bot will check cached outbounds/inbounds
 
 > "profit_deviance"
-The minimum amount of value from what the bot would offer for the outbound to be declined 
+The minimum amount of value from what the bot would offer for the outbound to be declined or inbound to be notified
 EX -> Original offer: 15k for 15.5k | Offer after 2hrs: 15k for 15.2k 
-If the bot was set to decline at 200 profit deviance this trade would be declined
+If the bot was set to decline at 200 profit deviance this trade would be declined or no longer alerted as a win with the inbound checker
+
+> "avoid_younger_then"
+The number of seconds the bot has to wait before checking a trade (from the moment it was cached)
+EX -> a trade was cached at 6:18
+If this option was set to wait 60 seconds before checking a newly cached trade it wouldn't check it for a loss 
+
+> "avoid_older_then"
+How old a trade has to be, in seconds, for the outbound checker to no longer check it for losses
 
 > "min_under"
 The minimum amount an item has to be under rap for the bot to revalue the item (in outbounds)
@@ -118,6 +137,15 @@ Allows you to set what certain items specifically get (at the minimum), the form
 > "send"
 The types of trades you'd like the configured bot to send
 
+> "configure_sendables"
+When set to true the bot will automatically decide whether your bot will send upgrades, downgrades, and mixed trades
+
+> "min_inv"
+The minimum about of items (you'd be able to have) before the bot would configure your bot to send downgrade/mixed trades
+
+> "max_inv"
+The maximum about of items (you'd be able to have) before the bot would configure your bot to send upgrade/mixed trades
+
 > "dnt"
 A list of items you'd like the configured bot to not trade
 
@@ -135,6 +163,9 @@ When set to true the configured bot will only trade for valued items
 
 > "otf_rap"
 When set to true the configured bot will only trade for rap items
+
+> "dnt_items_under"
+The minimum amount of value items in your inv need to be traded 
 
 > "overvalue_algo"
 When set to true the bot will configure an overvalue amount for rap items under 5k

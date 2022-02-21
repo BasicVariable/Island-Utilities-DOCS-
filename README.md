@@ -74,8 +74,6 @@ When set to true the bot will check for new inbounds and inbound wins
 > "rs_wins_int"
 The time in seconds the bot has to wait before restating cached "win" trade
 
-
-
 > "check_outbounds"
 When set to true the bot will check outbounds for losses
 
@@ -154,6 +152,9 @@ A list of items you'd like the configured bot to not trade for
 
 > "dnt_to"
 A list of people you'd like the configured bot avoid sending trades to
+
+> "dnt_rap"
+When set to true the auto-config will automatically blacklist all rap items from being traded
 
 > "plug"
 When set to true the configured bot will scrape rbx_flip

@@ -17,7 +17,7 @@ https://discord.gg/6ASdpBjbDX / Basic#2142
 2. Login to Rolimons (if you aren't already) and inspect the web page
 3. Go to the network tab and refresh the page 
 4. Click the first request called "tradeadcreate" and scroll down to the request headers section
-5. Find cookie section of the header then copy the "_RoliVerification" token until the "_RoliData" token starts 
+5. Find cookie section of the header then copy the token after "_RoliVerification=" token until the "_RoliData" token starts 
 6. Paste the token (including the "_RoliVerification" section of it) in the string that follows "roli_token": in the config.json file
 
 > "bot_token"
